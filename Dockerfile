@@ -2,7 +2,7 @@ FROM        alpine
 
 MAINTAINER  paradox.cloud <support@paradox.network>
 
-RUN         apk update && apk add --no-cache nodejs git
+RUN         apk update && apk add --no-cache nodejs
 
 USER        container
 ENV         HOME /home/container
