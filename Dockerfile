@@ -1,4 +1,4 @@
-FROM        node:3.12.3-alpine
+FROM        node:3.12-alpine
 
 MAINTAINER  paradox.cloud <support@paradox.network>
 
