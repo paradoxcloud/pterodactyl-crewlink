@@ -1,4 +1,4 @@
-FROM        node:alpine3.12
+FROM        alpine:3.12
 
 MAINTAINER  paradox.cloud <support@paradox.network>
 
@@ -9,4 +9,4 @@ ENV         HOME /home/container
 WORKDIR     /home/container
 
 COPY        ./entrypoint.sh /entrypoint.sh
-CMD         ["/bin/bash", "/entrypoint.sh"]
+CMD         ["/bin/sh", "/entrypoint.sh"]
