@@ -2,7 +2,7 @@ FROM        alpine:3.12
 
 MAINTAINER  paradox.cloud <support@paradox.network>
 
-RUN         apk update && apk add --no-cache nodejs && npm install -g yarn
+RUN         apk update && apk add --no-cache nodejs nodejs-npm && npm install -g yarn
 
 USER        container
 ENV         HOME /home/container
